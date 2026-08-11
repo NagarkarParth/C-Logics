@@ -17,7 +17,7 @@ int main()
             arr[i]=arr[j];
             arr[j]=temp;
             }
-
+            
         }
     }
 printf("\nSorted Array - ");
