@@ -7,10 +7,12 @@ int main()
     int sum;
     int *ptr1=&n;
     int *ptr2=&m;
+    int *p3;
+    p3=&sum;
 
-    sum=*ptr1+*ptr2;
+    *p3=*ptr1+*ptr2;
 
-    printf("Sum = %d",sum);
+    printf("Sum = %d",*p3);
 
     return 0; 
 
